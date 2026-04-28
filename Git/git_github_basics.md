@@ -98,7 +98,11 @@ A `.gitignore` file tells Git which files to never track — large data files, t
   - `git rm filename.qmd`
   - `git commit -m "Remove outdated script"`
   - `git push`
-
+- Recover an acidentaally deleted file
+  - `git log --oneline`          
+  - `git checkout COMMIT_ID -- ATAC-seq/ATAC_seq_basics.md`
+  - `git commit -m "Restore ATAC-seq file"`
+  - `git push`
 ---
 
 ## Undoing Changes
